@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap');
+
+
+.boxHeader {
+    height: 71px;
+    background-color: black;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+/* ------modal------ */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/bgMod.png');
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.closeModal {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+/* -----navMenu----- */
+.menuLink {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 44px;
+}
+
+.navMenu {
+    text-transform: uppercase;
+
+}
+
+.navMenuPosition {
+    margin-top: 80px;
+}
+
+.btnOpenMenu {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.textMenu {
+    font-size: 30px;
+}
