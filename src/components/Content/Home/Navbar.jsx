@@ -20,6 +20,7 @@ const Navbar = () => {
             </div>
             {isModalOpen && (<div className={css.modalOverlay} >
                 <div className={css.modal}>
+                    <PiCouchThin className={css.logo} style={{ color: 'white' }} size={50} />
                     <button className={css.closeModal} onClick={closeModal}><RxCross1 size={20} style={{ color: 'white' }} /></button>
                     <div className={css.navMenuPosition}>
                         <NavLink className={css.navMenu} style={{ textDecoration: 'none' }}>
