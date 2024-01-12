@@ -1,11 +1,13 @@
 import React from 'react'
-
-const Header = () => {
+import css from './Home.module.css'
+const Home = () => {
     return (
         <>
-
+            <div className={css.overlay}>
+                <div className={css.hero}></div>
+            </div>
         </>
     )
 }
 
-export default Header
+export default Home

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { RxCross1 } from "react-icons/rx";
 import { PiCouchThin } from "react-icons/pi";
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import css from './Navbar.module.css'
 
 const Navbar = () => {
@@ -23,19 +23,17 @@ const Navbar = () => {
                     <PiCouchThin className={css.logo} style={{ color: 'white' }} size={50} />
                     <button className={css.closeModal} onClick={closeModal}><RxCross1 size={20} style={{ color: 'white' }} /></button>
                     <div className={css.navMenuPosition}>
-                        <NavLink className={css.navMenu} style={{ textDecoration: 'none' }}>
+                        <nav className={css.navMenu} style={{ textDecoration: 'none' }}>
                             <Link className={css.menuLink} onClick={closeModal} to='/'>Home</Link>
                             <Link className={css.menuLink} onClick={closeModal} to='portfolio'>Portfolio</Link>
                             <Link className={css.menuLink} onClick={closeModal} to='pages'>Pages</Link>
                             <Link className={css.menuLink} onClick={closeModal} to='services'>Services</Link>
                             <Link className={css.menuLink} onClick={closeModal} to='contact'>Contact</Link>
-                        </NavLink></div>
-
-
+                        </nav>
+                    </div>
                 </div>
             </div >)
             }
-
         </div>
     )
 }

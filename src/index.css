@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   .container {
     max-width: 415px;
   }
@@ -96,4 +96,4 @@ body.modal-menu-open {
   .nav.nav-menu__cont .nav__cont {
     margin-bottom: 28px;
   }
-}
+} */
