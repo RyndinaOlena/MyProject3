@@ -3,14 +3,21 @@ import { PiCouchThin } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import css from './Navbar.module.css'
 import Modal from './Modal';
+import { IoCallOutline } from 'react-icons/io5';
 
 const Navbar = () => {
+
     const [isModalOpen, setModal] = useState(false)
     const openModal = () => {
         setModal(true)
     }
     const closeModal = () => {
         setModal(false)
+    }
+
+    const phoneNumber = '+380939331160'
+    const handleCall = () => {
+        window.location.href = `tel:${phoneNumber}`
     }
     return (
         <div className={css.boxHeader}>
@@ -23,7 +30,7 @@ const Navbar = () => {
                         <Link className={css.navLinkDesctop} to='pages'>Pages</Link>
                         <Link className={css.navLinkDesctop} to='services'>Services</Link>
                         <Link className={css.navLinkDesctop} to='contact'>Contact</Link></nav></div>
-
+                <button className={css.buttonCall} onClick={handleCall}><IoCallOutline size={40} /></button>
                 <button className={css.btnOpenMenu} onClick={openModal}><span className={css.textMenu}>Menu</span></button>
 
 
