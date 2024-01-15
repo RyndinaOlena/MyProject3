@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/MyProject3/static/css/main.f4a27ce9.css",
-    "main.js": "/MyProject3/static/js/main.36513635.js",
+    "main.css": "/MyProject3/static/css/main.5f6bbef7.css",
+    "main.js": "/MyProject3/static/js/main.181de342.js",
     "static/media/kitchen.jpg": "/MyProject3/static/media/kitchen.532af6021d9f78da5431.jpg",
+    "static/media/apartment.jpg": "/MyProject3/static/media/apartment.1053638bbc6b46d49652.jpg",
+    "static/media/couch.jpg": "/MyProject3/static/media/couch.8a4ebfdbd68245f5cf3a.jpg",
     "static/media/bgMod.png": "/MyProject3/static/media/bgMod.6a136eeda8bb6b7b57c5.png",
     "index.html": "/MyProject3/index.html",
-    "main.f4a27ce9.css.map": "/MyProject3/static/css/main.f4a27ce9.css.map",
-    "main.36513635.js.map": "/MyProject3/static/js/main.36513635.js.map"
+    "main.5f6bbef7.css.map": "/MyProject3/static/css/main.5f6bbef7.css.map",
+    "main.181de342.js.map": "/MyProject3/static/js/main.181de342.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4a27ce9.css",
-    "static/js/main.36513635.js"
+    "static/css/main.5f6bbef7.css",
+    "static/js/main.181de342.js"
   ]
 }
