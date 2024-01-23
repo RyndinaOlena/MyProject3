@@ -27,11 +27,11 @@
         margin: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../../img/couch.jpg');
+        background-image: url('../../img/kitchen.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        color: #302828;
+        /* color: #302828; */
 
     }
 
@@ -41,10 +41,14 @@
 .contactTitle {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(2, 2, 2);
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     text-align: center;
+
+    @media screen and (max-width: 768px) {
+        color: white;
+    }
 
 
 }
@@ -52,22 +56,30 @@
 .contactContent {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(67, 63, 63);
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     padding-bottom: 20px;
     padding-top: 10px;
+
+    @media screen and (max-width: 768px) {
+        color: white;
+    }
 
 }
 
 .textContent {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(67, 63, 63);
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     padding-bottom: 20px;
     padding-top: 10px;
+
+    @media screen and (max-width: 768px) {
+        color: white;
+    }
 }
 
 
@@ -75,12 +87,17 @@
 .linesHome {
     width: 50%;
     height: 1px;
-    opacity: 0.4;
-    background-color: white;
+    opacity: 0.2;
+    background-color: black;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
     text-align: right;
+    color: black;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 
 }
 

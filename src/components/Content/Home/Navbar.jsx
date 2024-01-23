@@ -20,8 +20,9 @@ const Navbar = () => {
         window.location.href = `tel:${phoneNumber}`
     }
     return (
+
         <div className={css.boxHeader}>
-            <div className={css.navBar} >
+            <div className={css.cotainer}>
                 <PiCouchThin className={css.logo} style={{ color: 'white' }} size={50} />
                 <div className={css.navMenuDeasctop} >
                     <nav style={{ textDecoration: 'none' }}>
@@ -30,15 +31,14 @@ const Navbar = () => {
                         <Link className={css.navLinkDesctop} to='pages'>Pages</Link>
                         <Link className={css.navLinkDesctop} to='services'>Services</Link>
                         <Link className={css.navLinkDesctop} to='contact'>Contact</Link></nav></div>
-                <button className={css.buttonCall} onClick={handleCall}><IoCallOutline size={40} /></button>
+                <button className={css.buttonCall} onClick={handleCall}><IoCallOutline size={35} /></button>
                 <button className={css.btnOpenMenu} onClick={openModal}><span className={css.textMenu}>Menu</span></button>
-
-
             </div>
-
             {isModalOpen && (<Modal closeModal={closeModal} />)}
 
         </div>
+
+
     )
 }
 
