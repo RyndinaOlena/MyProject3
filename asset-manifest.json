@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/MyProject3/static/css/main.5f6bbef7.css",
-    "main.js": "/MyProject3/static/js/main.181de342.js",
+    "main.css": "/MyProject3/static/css/main.716fcb70.css",
+    "main.js": "/MyProject3/static/js/main.ad2a971d.js",
     "static/media/kitchen.jpg": "/MyProject3/static/media/kitchen.532af6021d9f78da5431.jpg",
-    "static/media/apartment.jpg": "/MyProject3/static/media/apartment.1053638bbc6b46d49652.jpg",
+    "static/media/redKitchen.jpg": "/MyProject3/static/media/redKitchen.bcb52f801129ee028316.jpg",
+    "static/media/blackKitchen.jpg": "/MyProject3/static/media/blackKitchen.0d982c349efb63abb2c6.jpg",
     "static/media/couch.jpg": "/MyProject3/static/media/couch.8a4ebfdbd68245f5cf3a.jpg",
+    "static/media/rivera.jpg": "/MyProject3/static/media/rivera.5b68968931c384d98e9e.jpg",
     "static/media/bgMod.png": "/MyProject3/static/media/bgMod.6a136eeda8bb6b7b57c5.png",
     "index.html": "/MyProject3/index.html",
-    "main.5f6bbef7.css.map": "/MyProject3/static/css/main.5f6bbef7.css.map",
-    "main.181de342.js.map": "/MyProject3/static/js/main.181de342.js.map"
+    "main.716fcb70.css.map": "/MyProject3/static/css/main.716fcb70.css.map",
+    "main.ad2a971d.js.map": "/MyProject3/static/js/main.ad2a971d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f6bbef7.css",
-    "static/js/main.181de342.js"
+    "static/css/main.716fcb70.css",
+    "static/js/main.ad2a971d.js"
   ]
 }
