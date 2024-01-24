@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/MyProject3/static/css/main.716fcb70.css",
-    "main.js": "/MyProject3/static/js/main.ad2a971d.js",
-    "static/media/kitchen.jpg": "/MyProject3/static/media/kitchen.532af6021d9f78da5431.jpg",
+    "main.css": "/MyProject3/static/css/main.6376cde8.css",
+    "main.js": "/MyProject3/static/js/main.ed31eecb.js",
+    "static/media/kitchen.jpg": "/MyProject3/static/media/kitchen.b57c3cc66e447bd56f41.jpg",
+    "static/media/closet.jpg": "/MyProject3/static/media/closet.f7c6cafc77fce6d511c2.jpg",
+    "static/media/grinKitchen.jpg": "/MyProject3/static/media/grinKitchen.474eb57f0d972975bbff.jpg",
+    "static/media/brounKitchen.jpg": "/MyProject3/static/media/brounKitchen.8ea086c2cf07b6571db7.jpg",
     "static/media/redKitchen.jpg": "/MyProject3/static/media/redKitchen.bcb52f801129ee028316.jpg",
     "static/media/blackKitchen.jpg": "/MyProject3/static/media/blackKitchen.0d982c349efb63abb2c6.jpg",
+    "static/media/whiteKitchen.jpg": "/MyProject3/static/media/whiteKitchen.fa7c2bc1ce146d6ed800.jpg",
+    "static/media/tv.jpg": "/MyProject3/static/media/tv.4634033132fbedb227b7.jpg",
     "static/media/couch.jpg": "/MyProject3/static/media/couch.8a4ebfdbd68245f5cf3a.jpg",
     "static/media/rivera.jpg": "/MyProject3/static/media/rivera.5b68968931c384d98e9e.jpg",
     "static/media/bgMod.png": "/MyProject3/static/media/bgMod.6a136eeda8bb6b7b57c5.png",
     "index.html": "/MyProject3/index.html",
-    "main.716fcb70.css.map": "/MyProject3/static/css/main.716fcb70.css.map",
-    "main.ad2a971d.js.map": "/MyProject3/static/js/main.ad2a971d.js.map"
+    "main.6376cde8.css.map": "/MyProject3/static/css/main.6376cde8.css.map",
+    "main.ed31eecb.js.map": "/MyProject3/static/js/main.ed31eecb.js.map"
   },
   "entrypoints": [
-    "static/css/main.716fcb70.css",
-    "static/js/main.ad2a971d.js"
+    "static/css/main.6376cde8.css",
+    "static/js/main.ed31eecb.js"
   ]
 }
