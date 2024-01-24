@@ -3,6 +3,7 @@ import css from './Portfolio.module.css'
 import redKitch from '../../img/works/redKitchen.jpg'
 import rivera from '../../img/works/rivera.jpg'
 import blackKitch from '../../img/works/blackKitchen.jpg'
+import Carousel from '../Portfolio/Carousel'
 const Portfolio = () => {
     return (
         <div className={css.containerWidth}>
@@ -25,6 +26,7 @@ const Portfolio = () => {
                 </li>
             </ul>
             <ul className={css.reverce}>
+                {/* исправыть падынгы!!!!!!!!!! */}
                 <li className={css.riveraKitch}>
                     <img src={rivera} alt='red' className={css.redKitchimg}></img>
                 </li>
@@ -47,7 +49,10 @@ const Portfolio = () => {
                     </p>
                 </li>
             </ul>
+            <span className={css.linesHome}></span>
 
+            <h2 className={css.titleCarousel}>Наша галерея</h2>
+            <Carousel />
         </div>
 
     )
