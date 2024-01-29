@@ -43,7 +43,7 @@ const Pages = () => {
                 </div>
             </div>
             <div>
-                <h3>Оберіть Ваш стиль:</h3>
+                <h3 className={css.titleUlService}>Оберіть Ваш стиль:</h3>
                 <ul>
                     <li className={css.itemService}>Сучасний<br />(modern):</li>
                     <li className={css.liService}> ~ Характеризується чистими лініями, мінімальним дизайном, використанням нових матеріалів та технологій.</li>

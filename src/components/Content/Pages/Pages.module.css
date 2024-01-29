@@ -94,7 +94,8 @@
 }
 
 .itemService {
-    background-color: rgba(77, 70, 70, 0.1);
+    background-color: rgba(10, 207, 2426, 0.5);
+    ;
     color: black;
     padding-top: 10px;
     font-size: 20px;
@@ -109,7 +110,8 @@
 }
 
 .liServiceLast {
-    background-color: rgba(77, 70, 70, 0.1);
+    background-color: rgba(10, 207, 2426, 0.5);
+
     list-style: none;
     margin: 20px 0 30px 0;
     padding-top: 20px;
@@ -117,4 +119,8 @@
     /* padding-left: 10px; */
     text-align: center;
     color: rgb(67, 3, 3);
+}
+
+.titleUlService {
+    margin-left: 10px;
 }
