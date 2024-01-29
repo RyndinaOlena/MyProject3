@@ -29,7 +29,7 @@ const Navbar = () => {
                         <Link className={css.navLinkDesctop} to='/'>Головна</Link>
                         <Link className={css.navLinkDesctop} to='portfolio'>Про нас</Link>
                         <Link className={css.navLinkDesctop} to='pages'>Стилі</Link>
-                        <Link className={css.navLinkDesctop} to='services'>Сервіс</Link>
+                        <Link className={css.navLinkDesctop} to='services'>Матеріали</Link>
                         <Link className={css.navLinkDesctop} to='contact'>Контакти</Link></nav></div>
                 <button className={css.buttonCall} onClick={handleCall}><IoCallOutline size={35} /></button>
                 <button className={css.btnOpenMenu} onClick={openModal}><span className={css.textMenu}>Menu</span></button>

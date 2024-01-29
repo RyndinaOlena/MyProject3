@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div сlassName={css.overlay}>
             <div className={css.hero}>
-                <div className={css.titleServiceBg}>   <h1 className={css.titleService}>Тут ви можете знайти інформацію що до матеріалів, які використоє наша команда в роботі</h1></div>
+                <div className={css.titleServiceBg}>  <h1 className={css.titleService}>Тут ви можете знайти інформацію що до матеріалів, які використоє наша команда в роботі</h1></div>
 
                 <ul className={css.ulService}>
                     <li className={css.itemService}>Дерево:</li>
