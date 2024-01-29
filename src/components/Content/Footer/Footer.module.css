@@ -1,0 +1,25 @@
+.containerFooter {
+    background-color: black;
+    height: auto;
+    text-align: center;
+}
+
+.diamond {
+    color: white;
+    text-align: center;
+}
+
+.titleFooter {
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.textFooter {
+    margin: 0;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 500;
+}

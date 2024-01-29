@@ -26,11 +26,11 @@ const Navbar = () => {
                 <PiCouchThin className={css.logo} style={{ color: 'white' }} size={50} />
                 <div className={css.navMenuDeasctop} >
                     <nav style={{ textDecoration: 'none' }}>
-                        <Link className={css.navLinkDesctop} to='/'>Home</Link>
-                        <Link className={css.navLinkDesctop} to='portfolio'>Portfolio</Link>
-                        <Link className={css.navLinkDesctop} to='pages'>Pages</Link>
-                        <Link className={css.navLinkDesctop} to='services'>Services</Link>
-                        <Link className={css.navLinkDesctop} to='contact'>Contact</Link></nav></div>
+                        <Link className={css.navLinkDesctop} to='/'>Головна</Link>
+                        <Link className={css.navLinkDesctop} to='portfolio'>Про нас</Link>
+                        <Link className={css.navLinkDesctop} to='pages'>Стилі</Link>
+                        <Link className={css.navLinkDesctop} to='services'>Сервіс</Link>
+                        <Link className={css.navLinkDesctop} to='contact'>Контакти</Link></nav></div>
                 <button className={css.buttonCall} onClick={handleCall}><IoCallOutline size={35} /></button>
                 <button className={css.btnOpenMenu} onClick={openModal}><span className={css.textMenu}>Menu</span></button>
             </div>

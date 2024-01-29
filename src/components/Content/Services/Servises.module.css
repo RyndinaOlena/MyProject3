@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.hero {
+
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../..//img/blackout-7492815_1280.jpg');
+    background-position: center;
+    /* width: 100vw;
+    height: 100vh; */
+
+}
+
+
+
+.titleServiceBg {
+    background-color: rgba(255, 253, 253, 0.1);
+}
+
+.titleService {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    font-family: "Pattaya",
+        sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+
+    @media screen and(min-width: 768px) {
+        font-size: 45px;
+    }
+
+}
+
+.ulService {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+
+}
+
+.itemService {
+    background-color: rgba(255, 253, 253, 0.1);
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.liService {
+    padding-left: 10px;
+    color: white;
+    list-style: none;
+}
+
+.liService:not(:last-child) {
+    margin: 10px 0;
+}
+
+.pService {
+    margin: 0;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+    border-bottom: solid 1px white;
+    background-color: rgba(255, 253, 253, 0.1);
+}

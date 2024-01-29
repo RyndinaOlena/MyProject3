@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className={css.bgContactOverlay}>
             <div className={css.bgContact}>
-                <h1 className={css.contactTitle}>Contact</h1>
+                <h1 className={css.contactTitle}>Контакти</h1>
                 <div className={css.containerContentcontact}>
                     <span className={css.linesHome}></span>
                     <p className={css.contactContent}>+380939331160</p>

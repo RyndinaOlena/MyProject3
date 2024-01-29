@@ -12,12 +12,11 @@ const Home = () => {
                 <div className={css.hero}><h1 className={css.titleHome}>Ми втілюємо мрії кожного</h1><span className={css.linesHome}><span className={css.textHero}>Обирай найкращих</span></span><div className={css.navMenuDeasctop} >  </div>
                     <div className={css.linkHome}>
                         <nav className={css.navHome} style={{ textDecoration: 'none' }}>
-                            <Link className={css.navLinkHome} to='portfolio'><IoImagesOutline />Portfolio</Link>
-                            <Link className={css.navLinkHome} to='pages'><MdPageview />Pages</Link>
-                            <Link className={css.navLinkHome} to='services'><FcServices />Services</Link>
-                            <Link className={css.navLinkHome} to='contact'><MdOutlineContactPhone />Contact</Link></nav>
+                            <Link className={css.navLinkHome} to='portfolio'><span className={css.icon}><IoImagesOutline /></span>Про нас</Link>
+                            <Link className={css.navLinkHome} to='pages'><span className={css.icon}><MdPageview /></span>Стилі</Link>
+                            <Link className={css.navLinkHome} to='services'> <span className={css.icon}><FcServices /></span>Сервіс</Link>
+                            <Link className={css.navLinkHome} to='contact'><span className={css.icon}><MdOutlineContactPhone /></span>Контакти</Link></nav>
                     </div>
-
 
                 </div>
 

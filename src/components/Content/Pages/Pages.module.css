@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Pacifico&family=Pattaya&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.heroPages {
+    font-family: "Pattaya", sans-serif;
+    margin: 0;
+    color: rgba(71, 70, 70, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+
+.titlePages {
+    font-weight: 100;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.spanPages {
+    color: rgba(71, 70, 70, 0.8);
+}
+
+.imgPages {
+    width: 200px;
+    height: 116px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+/* 
+.line {
+    width: 50%;
+    height: 1px;
+    opacity: 0.4;
+    background-color: #312313;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    text-align: right;
+    margin-bottom: 50px;
+} */
+
+.titleLinkPage {
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+.linkImgPage {
+    width: 50%;
+    flex-basis: calc(33.33% -20px);
+    display: block;
+    text-decoration: none;
+
+}
+
+.linkImgPageRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+
+
+}
+
+.linkTitlePages {
+    text-decoration: none;
+    margin: 0;
+    margin: 10px;
+
+}
+
+.linkPagesText {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.containerPages {
+    text-align: center;
+    background-color: rgba(10, 207, 2426, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.itemService {
+    background-color: rgba(77, 70, 70, 0.1);
+    color: black;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.liService {
+    font-size: 24px;
+    color: black;
+    list-style: none;
+}
+
+.liServiceLast {
+    background-color: rgba(77, 70, 70, 0.1);
+    list-style: none;
+    margin: 20px 0 30px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 10px; */
+    text-align: center;
+    color: rgb(67, 3, 3);
+}
