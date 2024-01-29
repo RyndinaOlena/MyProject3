@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyProject3/static/css/main.90fc5e66.css",
+    "main.css": "/MyProject3/static/css/main.49672524.css",
     "main.js": "/MyProject3/static/js/main.cad52ddd.js",
     "static/media/roomtodo.jpg": "/MyProject3/static/media/roomtodo.1d527b7970c5a17df796.jpg",
     "static/media/kitchen.jpg": "/MyProject3/static/media/kitchen.b57c3cc66e447bd56f41.jpg",
@@ -17,11 +17,11 @@
     "static/media/mehmod.jpg": "/MyProject3/static/media/mehmod.420ea7ecece9a283828b.jpg",
     "static/media/bgMod.png": "/MyProject3/static/media/bgMod.6a136eeda8bb6b7b57c5.png",
     "index.html": "/MyProject3/index.html",
-    "main.90fc5e66.css.map": "/MyProject3/static/css/main.90fc5e66.css.map",
+    "main.49672524.css.map": "/MyProject3/static/css/main.49672524.css.map",
     "main.cad52ddd.js.map": "/MyProject3/static/js/main.cad52ddd.js.map"
   },
   "entrypoints": [
-    "static/css/main.90fc5e66.css",
+    "static/css/main.49672524.css",
     "static/js/main.cad52ddd.js"
   ]
 }
